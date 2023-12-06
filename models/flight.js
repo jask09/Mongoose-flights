@@ -41,7 +41,10 @@ const flightSchema = new Schema({
     const finalDate = new Date(year, month, day + 365);
     return finalDate;
    }
-}
+},
+
+destinations:[destinationSchema],
+
 
 })
 
